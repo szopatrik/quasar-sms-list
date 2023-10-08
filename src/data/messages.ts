@@ -82,9 +82,3 @@ export const messages: TextMessage[] = [
     messageDt: '2023-09-11T20:45:00',
   },
 ];
-
-function getRandomDirection() {
-  const directions = [SmsDirectionApi.Inbound, SmsDirectionApi.Outbound];
-  const randomIndex = Math.floor(Math.random() * directions.length);
-  return directions[randomIndex];
-}
